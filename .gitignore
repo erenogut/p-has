@@ -1,0 +1,12 @@
+# Yapay Zeka Modelleri
+best.engine
+
+# Sifreleri iceren asil ayar dosyasi (Guvende kalmasi icin yuklenmeyecek)
+config.json
+
+# Python kalintilari
+__pycache__/
+*.pyc
+
+# Videolar
+videos/

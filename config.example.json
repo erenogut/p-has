@@ -1,0 +1,402 @@
+{
+    "VIDEO_YOLU": "rtsp://KULLANICI_ADI:SIFRE@IP_ADRESI:PORT/Streaming/Channels/101",
+    "KOPRU_SURESI_SN": 1.0,
+    "HAYALET_ESIK_SN": 2.0,
+    "MIN_BOLGE_KALMA_SN": 1.5,
+    "MAX_KAYIP_SURESI_SN": 12.0,
+    "CONFIDENCE": 0.5,
+    "RTSP_USER": "kamera_kullanicisi",
+    "RTSP_PASS": "kamera_sifresi",
+    "RTSP_IP": "kamera_ip_adresi",
+    "RTSP_CHANNEL": "101",
+    "VIDEO_SAVE_ENABLED": true,
+    "SQL_SERVER": "sql_sunucu_ip",
+    "SQL_DATABASE": "veritabani_adi",
+    "SQL_USER": "sql_kullanici_adi",
+    "SQL_PASSWORD": "sql_sifresi",
+    "SQL_PORT": 1433,
+    "CUSTOM_ZONES": {
+        "1": {
+            "name": "1. bölge",
+            "points": [
+                [
+                    47,
+                    708
+                ],
+                [
+                    503,
+                    481
+                ],
+                [
+                    296,
+                    318
+                ],
+                [
+                    125,
+                    355
+                ],
+                [
+                    10,
+                    440
+                ],
+                [
+                    34,
+                    705
+                ]
+            ]
+        },
+        "2": {
+            "name": "2. bölge",
+            "points": [
+                [
+                    276,
+                    716
+                ],
+                [
+                    826,
+                    529
+                ],
+                [
+                    1278,
+                    718
+                ],
+                [
+                    283,
+                    718
+                ]
+            ]
+        }
+    },
+    "CAMERAS": {
+        "101": {
+            "name": "Kamera 101",
+            "zones": {
+                "1": {
+                    "name": "Bolge 1",
+                    "points": [
+                        [
+                            47,
+                            708
+                        ],
+                        [
+                            503,
+                            481
+                        ],
+                        [
+                            296,
+                            318
+                        ],
+                        [
+                            125,
+                            355
+                        ],
+                        [
+                            10,
+                            440
+                        ],
+                        [
+                            34,
+                            705
+                        ]
+                    ]
+                },
+                "2": {
+                    "name": "Bolge 2",
+                    "points": [
+                        [
+                            276,
+                            716
+                        ],
+                        [
+                            826,
+                            529
+                        ],
+                        [
+                            1278,
+                            718
+                        ],
+                        [
+                            283,
+                            718
+                        ]
+                    ]
+                }
+            }
+        },
+        "1101": {
+            "name": "Kamera 1101",
+            "zones": {
+                "1": {
+                    "name": "Bolge 1",
+                    "points": [
+                        [
+                            103,
+                            627
+                        ],
+                        [
+                            1212,
+                            664
+                        ],
+                        [
+                            1192,
+                            156
+                        ],
+                        [
+                            102,
+                            626
+                        ]
+                    ]
+                },
+                "2": {
+                    "name": "Bolge 2",
+                    "points": [
+                        [
+                            66,
+                            90
+                        ],
+                        [
+                            307,
+                            96
+                        ],
+                        [
+                            186,
+                            192
+                        ],
+                        [
+                            71,
+                            91
+                        ]
+                    ]
+                },
+                "3": {
+                    "name": "Bolge 3",
+                    "points": [
+                        [
+                            424,
+                            86
+                        ],
+                        [
+                            675,
+                            70
+                        ],
+                        [
+                            539,
+                            180
+                        ],
+                        [
+                            427,
+                            85
+                        ]
+                    ]
+                }
+            }
+        },
+        "201": {
+            "name": "Kamera 201",
+            "zones": {}
+        },
+        "401": {
+            "name": "Kamera 401",
+            "zones": {}
+        },
+        "501": {
+            "name": "Kamera 501",
+            "zones": {}
+        },
+        "601": {
+            "name": "Kamera 601",
+            "zones": {}
+        },
+        "701": {
+            "name": "Kamera 701",
+            "zones": {}
+        },
+        "901": {
+            "name": "Kamera 901",
+            "zones": {}
+        },
+        "1001": {
+            "name": "Kamera 1001",
+            "zones": {}
+        },
+        "1201": {
+            "name": "Kamera 1201",
+            "zones": {}
+        },
+        "1301": {
+            "name": "Kamera 1301",
+            "zones": {}
+        },
+        "1401": {
+            "name": "Kamera 1401",
+            "zones": {}
+        },
+        "1501": {
+            "name": "Kamera 1501",
+            "zones": {}
+        },
+        "1601": {
+            "name": "Kamera 1601",
+            "zones": {}
+        },
+        "1701": {
+            "name": "Kamera 1701",
+            "zones": {}
+        },
+        "1801": {
+            "name": "Kamera 1801",
+            "zones": {}
+        },
+        "1901": {
+            "name": "Kamera 1901",
+            "zones": {}
+        },
+        "2001": {
+            "name": "Kamera 2001",
+            "zones": {}
+        },
+        "2101": {
+            "name": "Kamera 2101",
+            "zones": {}
+        },
+        "2401": {
+            "name": "Kamera 2401",
+            "zones": {}
+        },
+        "2501": {
+            "name": "Kamera 2501",
+            "zones": {}
+        },
+        "2601": {
+            "name": "Kamera 2601",
+            "zones": {}
+        },
+        "2701": {
+            "name": "Kamera 2701",
+            "zones": {}
+        },
+        "2801": {
+            "name": "Kamera 2801",
+            "zones": {}
+        },
+        "2901": {
+            "name": "Kamera 2901",
+            "zones": {}
+        },
+        "3001": {
+            "name": "Kamera 3001",
+            "zones": {}
+        },
+        "3301": {
+            "name": "Kamera 3301",
+            "zones": {}
+        },
+        "3401": {
+            "name": "Kamera 3401",
+            "zones": {}
+        },
+        "3501": {
+            "name": "Kamera 3501",
+            "zones": {}
+        },
+        "3601": {
+            "name": "Kamera 3601",
+            "zones": {}
+        },
+        "3701": {
+            "name": "Kamera 3701",
+            "zones": {}
+        },
+        "3801": {
+            "name": "Kamera 3801",
+            "zones": {}
+        },
+        "3901": {
+            "name": "Kamera 3901",
+            "zones": {}
+        },
+        "4001": {
+            "name": "Kamera 4001",
+            "zones": {}
+        },
+        "4101": {
+            "name": "Kamera 4101",
+            "zones": {}
+        },
+        "4501": {
+            "name": "Kamera 4501",
+            "zones": {}
+        },
+        "4601": {
+            "name": "Kamera 4601",
+            "zones": {}
+        },
+        "4701": {
+            "name": "Kamera 4701",
+            "zones": {}
+        },
+        "4801": {
+            "name": "Kamera 4801",
+            "zones": {}
+        },
+        "4901": {
+            "name": "Kamera 4901",
+            "zones": {}
+        },
+        "5301": {
+            "name": "Kamera 5301",
+            "zones": {}
+        },
+        "5501": {
+            "name": "Kamera 5501",
+            "zones": {}
+        },
+        "5601": {
+            "name": "Kamera 5601",
+            "zones": {}
+        },
+        "5701": {
+            "name": "Kamera 5701",
+            "zones": {}
+        },
+        "5901": {
+            "name": "Kamera 5901",
+            "zones": {}
+        },
+        "6001": {
+            "name": "Kamera 6001",
+            "zones": {}
+        },
+        "6101": {
+            "name": "Kamera 6101",
+            "zones": {}
+        },
+        "6301": {
+            "name": "Kamera 6301",
+            "zones": {}
+        },
+        "6401": {
+            "name": "Kamera 6401",
+            "zones": {}
+        }
+    },
+    "SELECTED_CAMERAS": [
+        "101"
+    ],
+    "HARD_FRAMES_ENABLED": true,
+    "SHIFT_PEOPLE": [
+        {
+            "id": "00000000",
+            "name": "Ornek Personel",
+            "departman": "Ornek Departman",
+            "kaynaklar": [],
+            "assignments": []
+        }
+    ],
+    "REPORT_UI": {
+        "type": "camera",
+        "item": "101",
+        "recording": "legacy|2026-08-20t15:54:56.280000|101",
+        "period": "all"
+    }
+}
